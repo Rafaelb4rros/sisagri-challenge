@@ -55,9 +55,6 @@ export const useUser = () => {
     [router]
   );
 
-  useEffect(() => {}, []);
-
-  const signOut = useCallback(() => () => {}, []);
 
   const payload = useMemo(
     () => ({
